@@ -12,15 +12,15 @@
 	<h1>상품 입력</h1>
 	<form:form action='input_product_proc' modelAttribute="product"
 		method='post'>
-		상품명 : <input type='text' name='name' />
+		상품명 : <form:input path='name'/>
 		<br />
 		<form:errors path='name' />
 		<br />
-		이메일 : <input type='text' name='email' />
+		이메일 : <form:input path='email'/>
 		<br />
 		<form:errors path='email' />
 		<br />
-		가격 : <input type='text' name='price' />
+		가격 : <form:input path='price'/>
 		<br />
 		<form:errors path='price' />
 		<br />
